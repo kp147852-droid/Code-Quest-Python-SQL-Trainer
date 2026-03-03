@@ -1,39 +1,69 @@
 # Code Quest: Python + SQL Trainer
 
-Learn Python and SQL by playing short, interactive coding challenges.
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
+[![Python](https://img.shields.io/badge/Python-3.10%2B-blue.svg)](https://www.python.org/)
+[![CI](https://img.shields.io/badge/tests-unittest-green.svg)](.github/workflows/ci.yml)
 
-> GitHub tagline: Beginner-friendly Python + SQL learning game with interactive challenges, hints, and progress tracking.
+Code Quest is a beginner-friendly command-line learning game for Python and SQL. It uses interactive challenges, instant feedback, and progress tracking to help users build practical coding and query skills.
 
-Code Quest is a beginner-focused terminal app designed to make coding practice feel like a game. Players solve Python and SQL tasks, get instant feedback, and build confidence step by step. SQL challenges run on a real SQLite dataset, so learners practice query skills they can actually use.
+## Why this project matters
+- Demonstrates Python programming fundamentals (`dataclasses`, validation logic, file persistence).
+- Demonstrates SQL competency using real query execution with SQLite.
+- Shows product thinking: gamification, hinting, progression, and user feedback loops.
+- Shows software engineering basics: tests, CI workflow, repo documentation, and MIT licensing.
 
-## GitHub About (Recommended)
-- Description: Beginner-friendly Python + SQL learning game with interactive challenges, hints, and progress tracking.
-- Website: https://github.com/kp147852-droid/Code-Quest-Python-SQL-Trainer
-- Topics: python, sql, sqlite, education, cli-game, beginner-friendly, learning-by-doing
+## Role relevance (for hiring)
+- Business Analyst: SQL filtering/aggregation patterns, data reasoning, and clear user flows.
+- Data Scientist: data manipulation mindset, query literacy, and iterative problem solving.
+- AI/ML Roles: core coding fluency, debugging discipline, and structured evaluation logic.
 
-## What it does
-- Gives step-by-step Python challenges.
-- Gives SQL challenges against a real SQLite dataset.
-- Tracks score and progress in `progress.json`.
-- Lets players retry with hints.
+## Features
+- Python challenge mode with retry + hint support.
+- SQL challenge mode with executable queries against an in-memory SQLite dataset.
+- Scoring system (+10 Python, +15 SQL) and unlocked progression.
+- Local progress persistence in `progress.json`.
+- Reset option for repeated practice.
 
-## Run
+## Tech stack
+- Python 3
+- SQLite (standard library `sqlite3`)
+- JSON persistence
+- GitHub Actions-ready CI configuration
+
+## Quick start
 ```bash
 cd "/Users/kyleparker/Documents/code game"
 python3 main.py
 ```
 
-## Game flow
+## Example game loop
 1. Pick Python or SQL challenge.
-2. Enter your answer/query.
-3. Get instant feedback and hints.
-4. Earn points and unlock the next challenge.
+2. Submit answer or SQL query.
+3. Receive immediate feedback (and hints if needed).
+4. Earn points and continue to the next level.
 
-## Ideas to expand
-- Add more levels and difficulty modes.
-- Add timer/leaderboard features.
-- Add multiplayer quiz mode.
-- Add web UI (Flask/Streamlit) later.
+## Repository structure
+- `main.py` - menu and game loop.
+- `game.py` - challenge logic, scoring, SQLite setup, persistence.
+- `tests/test_game.py` - unit tests for core behavior.
+- `.github/workflows/ci.yml` - automated test run on push/PR.
+
+## Suggested GitHub "About" settings
+- Description: Beginner-friendly Python + SQL learning game with interactive challenges, hints, and progress tracking.
+- Website: <YOUR_PORTFOLIO_OR_LINKEDIN_URL>
+- Topics: `python`, `sql`, `sqlite`, `business-analyst`, `data-science`, `ai-learning`, `education`, `cli-game`
+
+## Portfolio talking points
+- Built an educational CLI product that maps technical exercises to measurable progression.
+- Designed challenge validation logic for both Python and SQL with constrained retries and hints.
+- Added test coverage and CI to keep behavior reliable as feature scope grows.
+- Documented recruiter-discovery steps in [CAREER_VISIBILITY.md](CAREER_VISIBILITY.md).
+
+## Roadmap
+- Add intermediate and advanced challenge packs.
+- Add analytics export (CSV) for learner performance tracking.
+- Add optional web UI (Streamlit or Flask).
+- Add LLM-assisted hints for dynamic coaching.
 
 ## License
-This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for details.
+This project is licensed under the MIT License. See the [LICENSE](LICENSE) file.
