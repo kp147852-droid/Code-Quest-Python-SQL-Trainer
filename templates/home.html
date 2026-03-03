@@ -1,7 +1,13 @@
 {% extends "base.html" %}
 {% block content %}
 <section class="hero">
-  <p class="eyebrow">Code Quest Web</p>
+  <div class="brand">
+    <img src="{{ url_for('static', filename='logo.svg') }}" alt="Code Quest logo" class="brand-logo" />
+    <div>
+      <p class="eyebrow">Code Quest Web</p>
+      <p class="brand-name">Code Quest</p>
+    </div>
+  </div>
   <h1>Learn Python Like a Game</h1>
   <p class="lead">Built for absolute beginners. Every level teaches one concept, checks your answer, and explains why it works.</p>
   <div class="stats">
