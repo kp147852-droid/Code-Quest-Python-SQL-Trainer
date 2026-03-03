@@ -6,6 +6,8 @@
 
 Code Quest is a beginner-friendly command-line learning game for Python and SQL. It uses interactive challenges, instant feedback, and progress tracking to help users build practical coding and query skills.
 
+![Code Quest Demo](assets/demo.gif)
+
 ## Why this project matters
 - Demonstrates Python programming fundamentals (`dataclasses`, validation logic, file persistence).
 - Demonstrates SQL competency using real query execution with SQLite.
