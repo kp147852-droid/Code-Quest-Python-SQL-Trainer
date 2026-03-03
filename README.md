@@ -69,3 +69,10 @@ python3 main.py
 
 ## License
 This project is licensed under the MIT License. See the [LICENSE](LICENSE) file.
+
+## Employer Quick Links
+- Project brief: `docs/PROJECT_BRIEF.md`
+- Resume bullets: `docs/RESUME_BULLETS.md`
+- Security policy: `SECURITY.md`
+- Contribution guide: `CONTRIBUTING.md`
+- Code of conduct: `CODE_OF_CONDUCT.md`
