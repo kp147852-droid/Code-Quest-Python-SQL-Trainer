@@ -34,3 +34,6 @@ python3 main.py
 - Add timer/leaderboard features.
 - Add multiplayer quiz mode.
 - Add web UI (Flask/Streamlit) later.
+
+## License
+This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for details.
