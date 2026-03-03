@@ -6,6 +6,11 @@ Learn Python and SQL by playing short, interactive coding challenges.
 
 Code Quest is a beginner-focused terminal app designed to make coding practice feel like a game. Players solve Python and SQL tasks, get instant feedback, and build confidence step by step. SQL challenges run on a real SQLite dataset, so learners practice query skills they can actually use.
 
+## GitHub About (Recommended)
+- Description: Beginner-friendly Python + SQL learning game with interactive challenges, hints, and progress tracking.
+- Website: https://github.com/kp147852-droid/Code-Quest-Python-SQL-Trainer
+- Topics: python, sql, sqlite, education, cli-game, beginner-friendly, learning-by-doing
+
 ## What it does
 - Gives step-by-step Python challenges.
 - Gives SQL challenges against a real SQLite dataset.
